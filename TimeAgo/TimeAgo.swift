@@ -11,11 +11,11 @@ import Foundation
 
 
 extension NSDate {
-    func ago() -> String {
+    public func ago() -> String {
         return funTimeAgo(self as Date)
     }
     
-    var timeAgo:String{
+    public var timeAgo:String{
         get{
             return funTimeAgo(self as Date)
         }
@@ -23,11 +23,11 @@ extension NSDate {
 }
 extension Double {
     
-    func ago() -> String {
+    public  func ago() -> String {
         return funStampTimeAgo(self as Double)
     }
     
-    var timeAgo:String{
+    public var timeAgo:String{
         get{
             return funStampTimeAgo(self as Double)
         }
