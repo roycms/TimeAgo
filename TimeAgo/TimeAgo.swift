@@ -9,28 +9,30 @@
 
 import Foundation
 
-
 public extension NSDate {
     public func ago() -> String {
         return funTimeAgo(self as Date)
     }
     
     public var timeAgo:String{
-        get{
-            return funTimeAgo(self as Date)
-        }
+        return funTimeAgo(self as Date)
+//        get{
+//            return funTimeAgo(self as Date)
+//        }
     }
 }
 public extension Double {
     
-    public  func ago() -> String {
+    public func ago() -> String {
         return funStampTimeAgo(self as Double)
     }
     
     public var timeAgo:String{
-        get{
-            return funStampTimeAgo(self as Double)
-        }
+        
+        return funStampTimeAgo(self as Double)
+//        get{
+//            return funStampTimeAgo(self as Double)
+//        }
     }
 }
 
