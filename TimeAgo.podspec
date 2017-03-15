@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/roycms/TimeAgo.git", :tag => s.version.to_s }
 
-  s.source_files  = "TimeAgo/TimeAgo.swift"
+  s.source_files  = "Class/*.swift"
 
   s.requires_arc = true
 
