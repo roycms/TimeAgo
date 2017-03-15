@@ -15,6 +15,7 @@
 		B0EAC7A61E78F8E900FAE2CE /* TimeAgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EAC7A51E78F8E900FAE2CE /* TimeAgoTests.swift */; };
 		B0EAC7B11E78F8EA00FAE2CE /* TimeAgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EAC7B01E78F8EA00FAE2CE /* TimeAgoUITests.swift */; };
 		B0EAC7BF1E78F90D00FAE2CE /* TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EAC7BE1E78F90D00FAE2CE /* TimeAgo.swift */; };
+		B0EAC7C11E790EE100FAE2CE /* Double+timeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EAC7C01E790EE100FAE2CE /* Double+timeAgo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B0EAC7B01E78F8EA00FAE2CE /* TimeAgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAgoUITests.swift; sourceTree = "<group>"; };
 		B0EAC7B21E78F8EA00FAE2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0EAC7BE1E78F90D00FAE2CE /* TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAgo.swift; sourceTree = "<group>"; };
+		B0EAC7C01E790EE100FAE2CE /* Double+timeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+timeAgo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B0EAC7971E78F8E900FAE2CE /* Assets.xcassets */,
 				B0EAC7991E78F8E900FAE2CE /* LaunchScreen.storyboard */,
 				B0EAC79C1E78F8E900FAE2CE /* Info.plist */,
+				B0EAC7C01E790EE100FAE2CE /* Double+timeAgo.swift */,
 			);
 			path = TimeAgo;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				B0EAC7931E78F8E900FAE2CE /* ViewController.swift in Sources */,
 				B0EAC7911E78F8E900FAE2CE /* AppDelegate.swift in Sources */,
 				B0EAC7BF1E78F90D00FAE2CE /* TimeAgo.swift in Sources */,
+				B0EAC7C11E790EE100FAE2CE /* Double+timeAgo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +522,7 @@
 				B0EAC7B71E78F8EA00FAE2CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0EAC7B81E78F8EA00FAE2CE /* Build configuration list for PBXNativeTarget "TimeAgoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				B0EAC7BA1E78F8EA00FAE2CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0EAC7BB1E78F8EA00FAE2CE /* Build configuration list for PBXNativeTarget "TimeAgoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				B0EAC7BD1E78F8EA00FAE2CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

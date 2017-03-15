@@ -21,20 +21,20 @@ public extension NSDate {
 //        }
     }
 }
-public extension Double {
-    
-    public func ago() -> String {
-        return funStampTimeAgo(self as Double)
-    }
-    
-    public var timeAgo:String{
-        
-        return funStampTimeAgo(self as Double)
-//        get{
-//            return funStampTimeAgo(self as Double)
-//        }
-    }
-}
+//public extension Double {
+//    
+//    public func ago() -> String {
+//        return funStampTimeAgo(self as Double)
+//    }
+//    
+//    public var timeAgo:String{
+//        
+//        return funStampTimeAgo(self as Double)
+////        get{
+////            return funStampTimeAgo(self as Double)
+////        }
+//    }
+//}
 
 func funStampTimeAgo(_ date: Double) -> String{
     
