@@ -13,9 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         print("\timeage:\n\(TimeAgo(NSDate() as Date))")
+    
+        print("\timeage:\n\(NSDate().timeAgo)")
         
-         print("\timeage:\n\(StampTimeAgo(1489552542))")
+        print("\timeage:\n\(1489552542.timeAgo)")
 
         // Do any additional setup after loading the view, typically from a nib.
     }

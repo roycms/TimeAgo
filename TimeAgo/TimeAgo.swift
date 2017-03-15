@@ -10,12 +10,36 @@
 import Foundation
 
 
-func StampTimeAgo(_ date: Double) -> String{
+extension NSDate {
+    func ago() -> String {
+        return funTimeAgo(self as Date)
+    }
     
-    return TimeAgo(NSDate(timeIntervalSince1970: TimeInterval(date)) as Date)
+    var timeAgo:String{
+        get{
+            return funTimeAgo(self as Date)
+        }
+    }
+}
+extension Double {
+    
+    func ago() -> String {
+        return funStampTimeAgo(self as Double)
+    }
+    
+    var timeAgo:String{
+        get{
+            return funStampTimeAgo(self as Double)
+        }
+    }
 }
 
-func TimeAgo(_ date: Date) -> String {
+func funStampTimeAgo(_ date: Double) -> String{
+    
+    return funTimeAgo(NSDate(timeIntervalSince1970: TimeInterval(date)) as Date)
+}
+
+func funTimeAgo(_ date: Date) -> String {
     
     let calendar = Calendar.current
     let now = Date()
