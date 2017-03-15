@@ -10,7 +10,7 @@
 import Foundation
 
 
-extension NSDate {
+public extension NSDate {
     public func ago() -> String {
         return funTimeAgo(self as Date)
     }
@@ -21,7 +21,7 @@ extension NSDate {
         }
     }
 }
-extension Double {
+public extension Double {
     
     public  func ago() -> String {
         return funStampTimeAgo(self as Double)
