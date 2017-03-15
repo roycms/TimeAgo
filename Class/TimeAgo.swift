@@ -15,26 +15,23 @@ public extension NSDate {
     }
     
     public var timeAgo:String{
-        return funTimeAgo(self as Date)
-//        get{
-//            return funTimeAgo(self as Date)
-//        }
+        get{
+            return funTimeAgo(self as Date)
+        }
     }
 }
-//public extension Double {
-//    
-//    public func ago() -> String {
-//        return funStampTimeAgo(self as Double)
-//    }
-//    
-//    public var timeAgo:String{
-//        
-//        return funStampTimeAgo(self as Double)
-////        get{
-////            return funStampTimeAgo(self as Double)
-////        }
-//    }
-//}
+public extension Double {
+    
+    public func ago() -> String {
+        return funStampTimeAgo(self as Double)
+    }
+
+    public var timeAgo:String{
+        get{
+            return funStampTimeAgo(self as Double)
+        }
+    }
+}
 
 func funStampTimeAgo(_ date: Double) -> String{
     
