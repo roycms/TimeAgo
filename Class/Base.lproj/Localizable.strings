@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  TimeAgo
+
+  Created by roycms on 2017/4/5.
+  Copyright © 2017年 北京三芳科技有限公司. All rights reserved.
+*/
+
+yearsAgo  = "years ago";
+LastYear  = "Last year";
+monthsAgo  = "months ago";
+LastMonth  = "Last month";
+weeksAgo  = "weeks ago";
+LastWeek  = "Last week";
+daysAgo  = "days ago";
+Yesterday  = "Yesterday";
+hoursAgo  = "hours ago";
+AnHourAgo  = "An hour ago";
+minutesAgo  = "minutes ago";
+AMinuteAgo  = "A minute ago";
+secondsAgo  = "seconds ago";
+JustNow  = "Just now";
